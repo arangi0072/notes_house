@@ -42,38 +42,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAsYD6Pz2jjLzQsvbEaMelXJNvlZtxnFCc',
-    appId: '1:769880525135:web:27987785eea9f7e6e45d3a',
-    messagingSenderId: '769880525135',
-    projectId: 'noteshouse-72',
-    authDomain: 'noteshouse-72.firebaseapp.com',
-    storageBucket: 'noteshouse-72.appspot.com',
-    measurementId: 'G-4S5ZVBX3S1',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    authDomain: '',
+    storageBucket: '',
+    measurementId: '',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBBKxU3xtyWb-_lBdDIGxJp4sgEQbEB7DE',
-    appId: '1:769880525135:android:fbf204c4a3f4d364e45d3a',
-    messagingSenderId: '769880525135',
-    projectId: 'noteshouse-72',
-    storageBucket: 'noteshouse-72.appspot.com',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAp8K3PvwauLkSA29wWJc1h1KLSN9G-5dw',
-    appId: '1:769880525135:ios:63ea6ca6651eabdbe45d3a',
-    messagingSenderId: '769880525135',
-    projectId: 'noteshouse-72',
-    storageBucket: 'noteshouse-72.appspot.com',
-    iosBundleId: 'arpit.rangi.notesHouse',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAp8K3PvwauLkSA29wWJc1h1KLSN9G-5dw',
-    appId: '1:769880525135:ios:f13cce1a541668ece45d3a',
-    messagingSenderId: '769880525135',
-    projectId: 'noteshouse-72',
-    storageBucket: 'noteshouse-72.appspot.com',
-    iosBundleId: 'arpit.rangi.notesHouse.RunnerTests',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    storageBucket: '',
+    iosBundleId: '',
   );
 }
