@@ -138,7 +138,7 @@ class _createNotePageState extends State<createNotePage> {
                 DatabaseReference id = FirebaseDatabase.instanceFor(
                         app: Firebase.app(),
                         databaseURL:
-                            "https://noteshouse-72-default-rtdb.asia-southeast1.firebasedatabase.app/")
+                            "")
                     .reference()
                     .child(userId)
                     .push();
@@ -169,7 +169,7 @@ class _createNotePageState extends State<createNotePage> {
                 DatabaseReference id = FirebaseDatabase.instanceFor(
                         app: Firebase.app(),
                         databaseURL:
-                            "https://noteshouse-72-default-rtdb.asia-southeast1.firebasedatabase.app/")
+                            "")
                     .reference()
                     .child(userId)
                     .child(key);
@@ -208,7 +208,7 @@ class _createNotePageState extends State<createNotePage> {
       DatabaseReference dbRef = FirebaseDatabase.instanceFor(
               app: Firebase.app(),
               databaseURL:
-                  "https://noteshouse-72-default-rtdb.asia-southeast1.firebasedatabase.app/")
+                  "")
           .reference()
           .child(FirebaseAuth.instance.currentUser!.uid)
           .child(widget.myString);
@@ -354,7 +354,7 @@ class _createNotePageState extends State<createNotePage> {
               DatabaseReference id = FirebaseDatabase.instanceFor(
                       app: Firebase.app(),
                       databaseURL:
-                          "https://noteshouse-72-default-rtdb.asia-southeast1.firebasedatabase.app/")
+                          "")
                   .reference()
                   .child(userId)
                   .child(widget.myString);
