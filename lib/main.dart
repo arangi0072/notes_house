@@ -12,11 +12,11 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
             options: const FirebaseOptions(
-          apiKey: 'AIzaSyAp8K3PvwauLkSA29wWJc1h1KLSN9G-5dw',
-          appId: '1:769880525135:ios:63ea6ca6651eabdbe45d3a',
-          messagingSenderId: '769880525135',
-          projectId: 'noteshouse-72',
-          storageBucket: 'noteshouse-72.appspot.com',
+          apiKey: '',
+          appId: '',
+          messagingSenderId: '',
+          projectId: '',
+          storageBucket: '',
         ));
   final FirebaseAuth _auth = FirebaseAuth.instance;
   User? user = _auth.currentUser;
