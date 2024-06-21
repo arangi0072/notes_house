@@ -312,7 +312,7 @@ class _HomePageState extends State<HomePage> {
                                                               app: Firebase
                                                                   .app(),
                                                               databaseURL:
-                                                                  "https://noteshouse-72-default-rtdb.asia-southeast1.firebasedatabase.app/")
+                                                                  "")
                                                       .reference()
                                                       .child(FirebaseAuth
                                                           .instance
